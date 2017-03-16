@@ -126,33 +126,33 @@
 <aside>
 	<h2>这里以后是个侧栏，这是侧栏的标题</h2>
 	<h2>侧栏注册窗口标题</h2>
-	<form>
-	<span>请输入邮箱地址: </span> <input type="text" name="email" value="这是一个文本输入框">
+	<form method="POST" action="">
+	<label for="email">请输入邮箱地址: </label> <input type="text" name="email" value="这是一个文本输入框">
 	<p>邮箱地址请按要求输入</p>
 
-	<span>请输入密码: </span> <input type="text" name="password" value="这是一个文本输入框">
+	<label for="password">请输入密码: </label> <input type="text" name="password" value="这是一个文本输入框">
 
-	<span>请重复输入密码: </span> <input type="text" name="repeat_pwd" value="这是一个文本输入框">
+	<label for="password2">请重复输入密码: </label> <input type="text" name="password2" value="这是一个文本输入框">
 	<p>密码请为6-16英文数字</p>
 
-	<span>性别： </span>
+	<label for="sex">性别： </label>
 	<input type="radio" name="sex" value="male" checked/> 男
 	<input type="radio" name="sex" value="female" /> 女
 
-	<span>城市： </span>
+	<label for="city">城市： </label>
 	<select>
-  	<option value ="volvo">北京</option>
-  	<option value ="saab">上海</option>
- 	<option value="opel">天津</option>
-  	<option value="audi">重庆</option>
+  	<option value ="bj">北京</option>
+  	<option value ="sh">上海</option>
+ 	<option value="tj">天津</option>
+  	<option value="cq">重庆</option>
 	</select>
 
-	<span>爱好： </span>
+	<label for="interest">爱好： </label>
 	<input type="checkbox" name="interest" value="sport"/>运动
 	<input type="checkbox" name="interest" value="sci"/>科学
 	<input type="checkbox" name="interest" value="art"/>艺术
 
-	<span>个人描述： </span>
+	<label for="desc">个人描述： </label>
 	<textarea>这是一个多行输入框，输入您的个人描述</textarea>
 	<input type="submit" value="确认提交" />
 	</form>
