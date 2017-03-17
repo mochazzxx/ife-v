@@ -2,3 +2,30 @@ body {
 	background-color: #DDDDDD;
 }
 
+header {
+	background-color: black;
+	overflow: hidden;
+}
+
+header h1{
+	color: white;
+	float: left;
+}
+
+#nav-manu { 
+	float:right; 
+} 
+#nav-manu li { 
+	float:left; 
+	list-style:none; 
+	margin-right: 20px;
+} 
+
+#nav-manu li a {
+	text-decoration: none;
+	color: white;
+}
+
+#nav-manu li a:visited {
+	color: #DDDDDD
+}
