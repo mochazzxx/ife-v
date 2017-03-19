@@ -1,15 +1,22 @@
 body {
-	background-color: #DDDDDD;
+	background-color: lightgray;
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
 }
+/* 导航条 */
 
 header {
 	background-color: black;
-	overflow: hidden;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-header h1{
-	color: white;
+#logo {
 	float: left;
+    margin-left: 40px;
 }
 
 #nav-manu { 
